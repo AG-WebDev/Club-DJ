@@ -141,7 +141,34 @@ img{
   text-align: center;
 }
 
+/* Contact Page */
 
+#contact {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact textarea {
+  height: 200px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: none;
+  border-color: #2596be;
+}
 
 /* footer */
 #main-footer {
